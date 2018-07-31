@@ -2,6 +2,7 @@ import os
 from datetime import datetime
 
 from task import Task
+from task_model import initialize
 
 
 def clear_screen():
@@ -306,4 +307,5 @@ class Worklog:
 
 
 if __name__ == "__main__":
+    initialize()
     Worklog()
